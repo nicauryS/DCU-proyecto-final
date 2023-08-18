@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sistema_Gestión_Escolar v1.0", "Sistema_Gestión_Escolar v1.0", "{C08D64B2-3FF6-4803-9C16-868B773A3060}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capas", "Capas", "{6F28FA2E-899D-4A9D-816E-3EFD3985F149}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows Form", "Windows Form", "{4534F07B-AF67-4BED-8459-6A8C01882A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{4EC2F2E7-9908-4553-B97B-5C23D595D30C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{E7E64426-A18A-4574-911C-16CB5AE603DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentación", "CapaPresentación\CapaPresentación.csproj", "{07F70A5E-1BEE-4D00-B7F2-315F128DFAF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{67EA743F-5538-4458-910E-38181977EAB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocios", "Negocios", "{CEAA2E87-0470-4CA2-83B8-AF68DF6CB0CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentación", "Presentación", "{D5A37AD3-13A3-4F5E-8773-D925891F0AA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EC2F2E7-9908-4553-B97B-5C23D595D30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EC2F2E7-9908-4553-B97B-5C23D595D30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EC2F2E7-9908-4553-B97B-5C23D595D30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EC2F2E7-9908-4553-B97B-5C23D595D30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E64426-A18A-4574-911C-16CB5AE603DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E64426-A18A-4574-911C-16CB5AE603DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E64426-A18A-4574-911C-16CB5AE603DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E64426-A18A-4574-911C-16CB5AE603DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F70A5E-1BEE-4D00-B7F2-315F128DFAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F70A5E-1BEE-4D00-B7F2-315F128DFAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F70A5E-1BEE-4D00-B7F2-315F128DFAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F70A5E-1BEE-4D00-B7F2-315F128DFAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F28FA2E-899D-4A9D-816E-3EFD3985F149} = {4534F07B-AF67-4BED-8459-6A8C01882A94}
+		{4534F07B-AF67-4BED-8459-6A8C01882A94} = {C08D64B2-3FF6-4803-9C16-868B773A3060}
+		{4EC2F2E7-9908-4553-B97B-5C23D595D30C} = {67EA743F-5538-4458-910E-38181977EAB6}
+		{E7E64426-A18A-4574-911C-16CB5AE603DA} = {CEAA2E87-0470-4CA2-83B8-AF68DF6CB0CB}
+		{07F70A5E-1BEE-4D00-B7F2-315F128DFAF7} = {D5A37AD3-13A3-4F5E-8773-D925891F0AA1}
+		{67EA743F-5538-4458-910E-38181977EAB6} = {6F28FA2E-899D-4A9D-816E-3EFD3985F149}
+		{CEAA2E87-0470-4CA2-83B8-AF68DF6CB0CB} = {6F28FA2E-899D-4A9D-816E-3EFD3985F149}
+		{D5A37AD3-13A3-4F5E-8773-D925891F0AA1} = {6F28FA2E-899D-4A9D-816E-3EFD3985F149}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0D73A00-66D4-4A66-81B1-CF285C318C7D}
+	EndGlobalSection
+EndGlobal
